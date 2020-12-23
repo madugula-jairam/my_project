@@ -1,0 +1,20 @@
+
+
+## Data Preparation
+Please prepare 5 frames and follow the naming rule `XXXXX_I[0-4].png` as shown in `imgs` folder, and change the folder path in `run_reflection.py` or `test_fence.py`.
+
+## Usage
+* Run your own sequence (reflection removal):
+``` bash
+CUDA_VISIBLEDEVICES=0 python3 run_reflection.py
+```
+
+* Run your own sequence (fence removal):
+``` bash
+CUDA_VISIBLEDEVICES=0 python3 test_fence.py
+```
+
+## Citation
+```
+[1] Yu-Lun Liu, Wei-Sheng Lai, Ming-Hsuan Yang, Yung-Yu Chuang, and Jia-Bin Huang. Learning to See Through Obstructions. Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020
+```
